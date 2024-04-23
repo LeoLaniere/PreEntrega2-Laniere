@@ -1,0 +1,157 @@
+*{
+        margin: 0;
+        padding: 0 ;
+    
+        font-family: "Nunito", sans-serif;
+        font-weight: 400;
+        
+
+}
+
+.encabezado{
+
+    background-image: url(../assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.encabezado H1{
+    font-family: "Big Shoulders Stencil Display", sans-serif;
+    font-size: 200px;
+    color: #FFA500;
+}
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+.nav-list li a{
+    color: #b1ae00;
+    text-decoration: none;
+    font-weight: 800;
+    
+
+}
+.nav-list li{
+    font-family: "Bungee Hairline", sans-serif;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.banner{
+    background-color:#666666;
+    
+}
+.banner h2{
+    font-family: "Tourney", sans-serif;
+    font-size: 80px;
+    font-variation-settings:"wdth" 100;
+}
+.banner h3{
+    font-size: 30px;
+    text-decoration: underline;
+}
+.banner p{
+    font-size: 20px;
+}
+.sec-suscripciones{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 0px;
+}
+.cont-suscrip{
+    text-align: center;
+    width: 300px;
+    background-color: #757572;
+    border-style: solid;
+    border-radius: 3%;
+    display: flex;
+    flex-flow:wrap ;
+    justify-content: center;
+    margin: 10px;
+}
+.cont-suscrip h3{
+    font-family: "Big Shoulders Stencil Display", sans-serif;
+    font-size: 40px;
+}
+
+.card button{
+    width: 130px;
+    color: black;
+    background-color: #adada7;
+    border-style: double;
+    border-width: 4px;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+.cont-suscrip div{
+    width: 200px;
+    
+}
+
+.cont-suscrip img{
+    width: 100%;
+    align-self: center;
+}
+
+.cont-suscrip p{
+    font-size: 17px;
+}
+.card{
+    background-color: #757572;
+    border: none;
+    text-align: center;
+    width: 300px;
+    background-color: #757572;
+    border-style: solid;
+    border-radius: 3%;
+    display: flex;
+    flex-flow:wrap ;
+    justify-content: center;
+    margin: 10px;
+}
+.card-img-top{
+    background-color: #757572;
+    border: none;
+}
+.card-title{
+    font-family: "Big Shoulders Stencil Display", sans-serif;
+    font-size: 40px;
+}
+.card-body{
+    background-color: #757572;
+    border: none;
+}
+.pie{
+    background-color: #333333;
+}
+
+.nav-list-footer{
+    list-style-type: none;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 30px;
+}
+.nav-list-footer li a{
+    color: #b1ae00;
+    text-decoration: none;
+    font-weight: 800;
+
+}
+.nav-list-footer li{
+    font-family: "Bungee Hairline", sans-serif;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.foot-links a{
+    color: #d8a648;
+    text-decoration:solid;
+    margin-left: 20px;
+}
