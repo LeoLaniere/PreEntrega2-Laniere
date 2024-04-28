@@ -1,8 +1,8 @@
 *{
-        margin: 0;
-        padding: 0 ;
-        font-family: "Nunito", sans-serif;
-        font-weight: 400;
+    margin: 0;
+    padding: 0 ;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
 }
 
 .encabezado{
@@ -73,7 +73,7 @@
 }
 .card-suscrip{
     text-align: center;
-    width: 300px;
+    width: 90%;
     background-color: #757572;
     border-style: solid;
     border-radius: 3%;
@@ -84,7 +84,7 @@
 }
 .card-suscrip h3{
     font-family: "Big Shoulders Stencil Display", sans-serif;
-    font-size: 40px;
+    font-size: 2.8rem;
 }
 .card-suscrip h5{
     display: flex;
@@ -114,45 +114,52 @@
 }
 .card-suscrip p{
     font-size: 20px;
-
+}
+.card-suscrip button{
+    width: 50%;
+    color: #000000;
+    background-color: #adada7;
+    border-color: #000000;
+    border-style: double;
+    border-width: 0.3rem;
+    border-radius: 10%;
+    margin-bottom: 3%;
 }
 .card{
     background-color: #757572;
     border: none;
     text-align: center;
-    width: 20rem;
+    width: 100%;
     background-color: #757572;
     border-style: solid;
     display: flex;
     flex-flow:wrap ;
     justify-content: center;
-    margin: 10px;
+    margin: 2%;
 }
 .card img{
    background-color: #757572;
-    height: 500px;
-    width: 295px;
 }
 .card__title{
     font-family: "Big Shoulders Stencil Display", sans-serif;
-    font-size: 30px;
+    font-size: 1.8rem;
 }
 .card__body{
     background-color: #757572;
     border: none;
 }
 .card button{
-    width: 130px;
+    width: 50%;
     color: #000000;
     background-color: #adada7;
     border-color: #000000;
     border-style: double;
-    border-width: 4px;
+    border-width: 0.3rem;
     border-radius: 10%;
-    margin-bottom: 10px;
+    margin-bottom: 3%;
 }
 .carousel__item {
-    padding:4px ;
+    padding:1% ;
 }
 .pie{
     background-color: #333333;
