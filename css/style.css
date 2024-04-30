@@ -32,7 +32,7 @@
     font-size: 18px;
 }
 .nav-item a{
-    color: #ffffff;
+    color: #000000;
     text-decoration: none;
     font-weight: 800;
 }
@@ -73,14 +73,14 @@
 }
 .card-suscrip{
     text-align: center;
-    width: 90%;
+    width: 70%;
     background-color: #757572;
     border-style: solid;
     border-radius: 3%;
     display: flex;
     flex-flow:wrap ;
     justify-content: center;
-    margin: 10px;
+    margin: 10% 15% 15% 15%;
 }
 .card-suscrip h3{
     font-family: "Big Shoulders Stencil Display", sans-serif;
@@ -94,7 +94,6 @@
     font-weight: 400;
     font-size: 25px;
 }
-
 .btn-outline-primary {
     --bs-btn-color: #FFA500;
     --bs-btn-border-color: #FFA500;
@@ -126,7 +125,6 @@
     margin-bottom: 3%;
 }
 .card{
-    background-color: #757572;
     border: none;
     text-align: center;
     width: 100%;
@@ -137,9 +135,7 @@
     justify-content: center;
     margin: 2%;
 }
-.card img{
-   background-color: #757572;
-}
+
 .card__title{
     font-family: "Big Shoulders Stencil Display", sans-serif;
     font-size: 1.8rem;
@@ -163,6 +159,9 @@
 }
 .pie{
     background-color: #333333;
+}
+.pie a{
+    color: #adada7;
 }
 .container-fluid{
     flex-direction:column;
