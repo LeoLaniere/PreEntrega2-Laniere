@@ -17,35 +17,49 @@
     font-family: "Bungee Hairline", sans-serif;
     font-size: 18px;
 }
-.encabezado H1{
+.encabezado h1{
     font-family: "Big Shoulders Stencil Display", sans-serif;
     font-size: 6rem;
     color: #FFA500;
     margin-bottom: 0;
 }
 
-.nav-item{
+@media (max-width: 992px){
+    .navbar-nav-scroll{
+        height:80px;
+    }
+    .navbar-toggler {
+        background-color: #FFA500;
+        border-color: #FFA500;
+    }
+    .navbar-nav {
+        background-color: #666666a2;
+        border-radius: 1rem;
+    }
+}
+
+.nav__link{
     font-family: "Bungee Hairline", sans-serif;
     display: inline-block;
     margin-left: 20px;
     margin-top: 20px;
     font-size: 18px;
 }
-.nav-item a{
+.nav__link a{
     color: #000000;
     text-decoration: none;
     font-weight: 800;
 }
-.cont-suscrip{
+.cont__suscrip{
     background-color:#666666;  
 }
-.cont-suscrip h2{
+.cont__suscrip h2{
     display: flex;
     font-family: "Tourney", sans-serif;
     font-size: 300%;
     font-variation-settings:"wdth" 100;
 }
-.cont-shop{
+.cont__shop{
     background-color:#666666;  
     margin-right: 0px
 }
@@ -53,17 +67,17 @@
 .row {
     margin-right: 0; 
 }
-.cont-shop h2{
+.cont__shop h2{
     display: flex;
     font-family: "Tourney", sans-serif;
     font-size: 300%;
     font-variation-settings:"wdth" 100;
 }
-.cont-shop h3{
+.cont__shop h3{
     font-size: 30px;
     text-decoration: underline;
 }
-.cont-shop p{
+.cont__shop p{
     font-size: 20px;
 }
 .sec-suscripciones{
@@ -71,7 +85,7 @@
     justify-content: space-evenly;
     margin: 80px 0px;
 }
-.card-suscrip{
+.card__suscrip{
     text-align: center;
     width: 70%;
     background-color: #757572;
@@ -82,11 +96,11 @@
     justify-content: center;
     margin: 10% 15% 15% 15%;
 }
-.card-suscrip h3{
+.card__suscrip h3{
     font-family: "Big Shoulders Stencil Display", sans-serif;
     font-size: 2.8rem;
 }
-.card-suscrip h5{
+.card__suscrip h5{
     display: flex;
     flex-flow:wrap ;
     justify-content: center;
@@ -104,17 +118,17 @@
     --bs-btn-disabled-color: #FFA500;
     --bs-btn-disabled-border-color: #FFA500;
 }
-.card-suscrip div{
+.card__suscrip div{
     width: 200px;
 }
-.card-suscrip img{
+.card__suscrip img{
     width: 100%;
     align-self: center;
 }
-.card-suscrip p{
+.card__suscrip p{
     font-size: 20px;
 }
-.card-suscrip button{
+.card__suscrip button{
     width: 50%;
     color: #000000;
     background-color: #adada7;
@@ -154,7 +168,7 @@
     border-radius: 10%;
     margin-bottom: 3%;
 }
-.carousel__item {
+.carousel-item {
     padding:1% ;
 }
 .pie{
@@ -167,8 +181,14 @@
     flex-direction:column;
 }
 
-.nav-list-footer{
+.navlist__footer{
     display: flex;
     flex-direction: column;
     margin-right: 4px;
+}
+
+.d-inline-block {
+    display: inline-block;
+    width: 30px;
+    height: 24px;
 }
