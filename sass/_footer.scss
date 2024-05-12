@@ -1,0 +1,20 @@
+@import './reset/variables';
+/*footer*/
+.pie{
+    background-color:$color-footer;
+    a{
+        color: #adada7;
+    }
+}
+
+.navlist-footer{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4px;
+}
+
+.d-inline-block {
+    display: inline-block;
+    width: 30px;
+    height: 24px;
+}

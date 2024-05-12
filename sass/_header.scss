@@ -1,0 +1,36 @@
+@import './reset/variables';
+/*header*/
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+    font-family: "Bungee Hairline", sans-serif;
+    font-size: 18px;
+}
+
+.encabezado{
+    background-image: url(../assets/banner.jpg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+        &__titulo{
+            font-family: "Big Shoulders Stencil Display", sans-serif;
+            font-size: 6rem;
+            color: $color-naranjatitan;
+            margin-bottom: 0;
+        }
+}
+.nav{
+    &__link{
+        font-family: "Bungee Hairline", sans-serif;
+        display: inline-block;
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 18px;
+
+        &__text{
+            color: $color-negro;
+            text-decoration: none;
+            font-weight: 800;
+        }
+    }
+}

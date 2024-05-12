@@ -1,0 +1,15 @@
+@import './reset/variables';
+/*mediaq*/
+@media (max-width: 992px){
+    .navbar-nav-scroll{
+        height:80px;
+    }
+    .navbar-toggler {
+        background-color: $color-naranjatitan;
+        border-color: $color-naranjatitan;
+    }
+    .navbar-nav {
+        background-color: #666666a2;
+        border-radius: 1rem;
+    }
+}

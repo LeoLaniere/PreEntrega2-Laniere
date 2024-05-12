@@ -1,0 +1,116 @@
+@import './reset/variables';
+/*principal*/
+.cont-suscrip{
+    background-color:$color-grisfondo;  
+    &__title{
+        display: flex;
+        font-family: "Tourney", sans-serif;
+        font-size: 300%;
+        font-variation-settings:"wdth" 100;
+    }
+}
+.cont-shop{
+    background-color:$color-grisfondo;  
+    margin-right: 0px;
+    font-size: 20px;
+    &__title{
+        display: flex;
+        font-family: "Tourney", sans-serif;
+        font-size: 300%;
+        font-variation-settings:"wdth" 100;
+    }
+}
+
+.sec-suscripciones{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 0px;
+}
+.card-suscrip{
+    text-align: center;
+    width: 70%;
+    background-color: #757572;
+    border-style: solid;
+    border-radius: 3%;
+    display: flex;
+    flex-flow:wrap ;
+    justify-content: center;
+    margin: 10% 15% 15% 15%;
+        &__title{
+            font-family: "Big Shoulders Stencil Display", sans-serif;
+            font-size: 2.8rem;
+        }
+        div{
+            width: 200px;
+        }
+        img{
+            width: 100%;
+            align-self: center;
+        }
+        &__precio{
+            font-size: 20px;
+        }
+        button{
+            width: 50%;
+            color: $color-negro;
+            background-color: #adada7;
+            border-color: $color-negro;
+            border-style: double;
+            border-width: 0.3rem;
+            border-radius: 10%;
+            margin-bottom: 3%;
+        }
+    
+}
+
+.btn-outline-primary {
+    --bs-btn-color:#FFA500;
+    --bs-btn-border-color: #FFA500;
+    --bs-btn-hover-bg: #FFA500;
+    --bs-btn-hover-border-color: #000000;
+    --bs-btn-active-bg: #FFA500;
+    --bs-btn-active-border-color: #000000;
+    --bs-btn-disabled-color: #FFA500;
+    --bs-btn-disabled-border-color: #FFA500;
+}
+.card{
+    border: none;
+    text-align: center;
+    width: 100%;
+    background-color: #757572;
+    border-style: solid;
+    display: flex;
+    flex-flow:wrap ;
+    justify-content: center;
+    margin: 2%;
+    &__title{
+        font-family: "Big Shoulders Stencil Display", sans-serif;
+        font-size: 1.8rem;
+    }
+    &__body{
+        background-color: #757572;
+        border: none;
+        &__text{
+            display: flex;
+            flex-flow:wrap ;
+            justify-content: center;
+            font-family: $fuente-princ;
+            font-weight: 400;
+            font-size: 25px;
+        }
+    }
+    button{
+        width: 50%;
+        color: $color-negro;
+        background-color: #adada7;
+        border-color: $color-negro;
+        border-style: double;
+        border-width: 0.3rem;
+        border-radius: 10%;
+        margin-bottom: 3%;
+    }
+}
+
+.carousel-item {
+    padding:1% ;
+}
