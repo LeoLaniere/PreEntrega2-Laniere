@@ -1,23 +1,18 @@
 @import './reset/variables';
+@import './reset/mixin';
 /*principal*/
 .cont-suscrip{
     background-color:$color-grisfondo;  
     &__title{
-        display: flex;
-        font-family: "Tourney", sans-serif;
-        font-size: 300%;
-        font-variation-settings:"wdth" 100;
+        @include titulos;
     }
 }
 .cont-shop{
     background-color:$color-grisfondo;  
     margin-right: 0px;
-    font-size: 20px;
+    font-size: map-get($tam-textos, cards-desc);
     &__title{
-        display: flex;
-        font-family: "Tourney", sans-serif;
-        font-size: 300%;
-        font-variation-settings:"wdth" 100;
+        @include titulos;
     }
 }
 
@@ -27,18 +22,12 @@
     margin: 80px 0px;
 }
 .card-suscrip{
-    text-align: center;
-    width: 70%;
-    background-color: #757572;
-    border-style: solid;
+    @include card(70%,10% 15% 15% 15%);
     border-radius: 3%;
-    display: flex;
-    flex-flow:wrap ;
-    justify-content: center;
-    margin: 10% 15% 15% 15%;
+
         &__title{
-            font-family: "Big Shoulders Stencil Display", sans-serif;
-            font-size: 2.8rem;
+            font-family: $fuente-titulos;
+            font-size: map-get($tam-textos, suscrip);
         }
         div{
             width: 200px;
@@ -48,17 +37,10 @@
             align-self: center;
         }
         &__precio{
-            font-size: 20px;
+            font-size: map-get($tam-textos, cards-desc);
         }
         button{
-            width: 50%;
-            color: $color-negro;
-            background-color: #adada7;
-            border-color: $color-negro;
-            border-style: double;
-            border-width: 0.3rem;
-            border-radius: 10%;
-            margin-bottom: 3%;
+            @include boton;
         }
     
 }
@@ -75,17 +57,10 @@
 }
 .card{
     border: none;
-    text-align: center;
-    width: 100%;
-    background-color: #757572;
-    border-style: solid;
-    display: flex;
-    flex-flow:wrap ;
-    justify-content: center;
-    margin: 2%;
+    @include card ( 100% ,2% );
     &__title{
-        font-family: "Big Shoulders Stencil Display", sans-serif;
-        font-size: 1.8rem;
+        font-family: $fuente-titulos;
+        font-size: map-get($tam-textos, card-shop);
     }
     &__body{
         background-color: #757572;
@@ -94,23 +69,53 @@
             display: flex;
             flex-flow:wrap ;
             justify-content: center;
-            font-family: $fuente-princ;
+            font-family: $fuente-std;
             font-weight: 400;
-            font-size: 25px;
+            font-size: map-get($tam-textos, cards);
         }
     }
     button{
-        width: 50%;
-        color: $color-negro;
-        background-color: #adada7;
-        border-color: $color-negro;
-        border-style: double;
-        border-width: 0.3rem;
-        border-radius: 10%;
-        margin-bottom: 3%;
+        @include boton;
     }
 }
 
 .carousel-item {
     padding:1% ;
 }
+
+.banner{
+    background-color: $color-grisfondo;
+    padding-left: 1%;
+    &__titulo{
+        font-family: $fuente-titulos;
+        font-size: map-get($tam-textos, body-title);
+    }
+    &__sub-titulo{
+        padding-top: 1%;
+        font-family: $fuente-titulos;
+        font-size: map-get($tam-textos, body-text);
+        text-decoration: underline;
+    }
+    &__text{
+        display: flex;
+        flex-flow:wrap ;
+        justify-content: center;
+        font-family: $fuente-std;
+        font-weight: 400;
+        font-size: map-get($tam-textos, cards);
+        margin-bottom: 0;
+    }
+
+}
+
+.cont-contacto{
+    background-color: $color-grisfondo;
+    padding: 3% ;
+    width: 80%;
+    button{
+        margin: 3% 0 0 8%;
+        width: 80%;
+    }
+}
+
+

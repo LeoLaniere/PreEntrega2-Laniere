@@ -81,15 +81,14 @@
   width: 70%;
   background-color: #757572;
   border-style: solid;
-  border-radius: 3%;
   display: flex;
   flex-flow: wrap;
   justify-content: center;
   margin: 10% 15% 15% 15%;
+  border-radius: 3%;
 }
 .card-suscrip__title {
   font-family: "Big Shoulders Stencil Display", sans-serif;
-  font-size: 2.8rem;
 }
 .card-suscrip div {
   width: 200px;
@@ -148,7 +147,6 @@
   justify-content: center;
   font-family: "Nunito", sans-serif;
   font-weight: 400;
-  font-size: 25px;
 }
 .card button {
   width: 50%;
@@ -163,6 +161,39 @@
 
 .carousel-item {
   padding: 1%;
+}
+
+.banner {
+  background-color: #666666;
+  padding-left: 1%;
+}
+.banner__titulo {
+  font-family: "Big Shoulders Stencil Display", sans-serif;
+  font-size: 3rem;
+}
+.banner__sub-titulo {
+  padding-top: 1%;
+  font-family: "Big Shoulders Stencil Display", sans-serif;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+.banner__text {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.cont-contacto {
+  background-color: #666666;
+  padding: 3%;
+  width: 80%;
+}
+.cont-contacto button {
+  margin: 3% 0 0 8%;
+  width: 80%;
 }
 
 /*footer*/

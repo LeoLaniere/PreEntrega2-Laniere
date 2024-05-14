@@ -3,5 +3,18 @@ $color-grisfondo:#666666;
 $color-naranjatitan:#FFA500;
 $color-footer:#333333;
 $color-negro:#000000;
+
 //variables
-$fuente-princ: "Nunito", sans-serif;
+$fuente-std: "Nunito", sans-serif;
+$fuente-titulos: "Big Shoulders Stencil Display", sans-serif;
+$fuente-links: "Bungee Hairline", sans-serif;
+
+//MAP
+$tam-textos: (
+    principal: 6rem,
+    body-text:2rem,
+    body-title:3rem,
+    cards-desc:20px,
+    card-suscrip:2.8rem,
+    card-shop: 1.8rem,
+)

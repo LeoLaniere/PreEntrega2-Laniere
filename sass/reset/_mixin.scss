@@ -1,0 +1,31 @@
+@import 'variables';
+// Mixins
+
+@mixin boton{
+    width: 50%;
+    color: $color-negro;
+    background-color: #adada7;
+    border-color: $color-negro;
+    border-style: double;
+    border-width: 0.3rem;
+    border-radius: 10%;
+    margin-bottom: 3%;
+}
+
+@mixin titulos{
+    display: flex;
+    font-family: "Tourney", sans-serif;
+    font-size: 300%;
+    font-variation-settings:"wdth" 100;
+}
+
+@mixin card($ancho,$margen){
+    text-align: center;
+    width: $ancho;
+    background-color: #757572;
+    border-style: solid;
+    display: flex;
+    flex-flow:wrap ;
+    justify-content: center;
+    margin: $margen;
+}

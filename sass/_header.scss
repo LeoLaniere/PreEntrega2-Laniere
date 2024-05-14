@@ -3,7 +3,7 @@
 
 .bg-body-tertiary {
     --bs-bg-opacity: 0;
-    font-family: "Bungee Hairline", sans-serif;
+    font-family: $fuente-links;
     font-size: 18px;
 }
 
@@ -13,15 +13,15 @@
     background-position: center;
     background-size: cover;
         &__titulo{
-            font-family: "Big Shoulders Stencil Display", sans-serif;
-            font-size: 6rem;
+            font-family: $fuente-titulos;
+            font-size: map-get($tam-textos, principal);
             color: $color-naranjatitan;
             margin-bottom: 0;
         }
 }
 .nav{
     &__link{
-        font-family: "Bungee Hairline", sans-serif;
+        font-family: $fuente-links;
         display: inline-block;
         margin-left: 20px;
         margin-top: 20px;
