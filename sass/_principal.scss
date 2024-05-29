@@ -78,6 +78,9 @@
         @include boton;
     }
 }
+.card-activ{
+    @include card ( 80% ,2% );
+}
 
 .carousel-item {
     padding:1% ;
@@ -89,14 +92,18 @@
     &__titulo{
         font-family: $fuente-titulos;
         font-size: map-get($tam-textos, body-title);
+        padding-top: 1%;
     }
     &__sub-titulo{
+        padding-left: 2%;
         padding-top: 1%;
         font-family: $fuente-titulos;
         font-size: map-get($tam-textos, body-text);
         text-decoration: underline;
     }
     &__text{
+        padding-left: 2%;
+        padding-bottom: 5%;
         display: flex;
         flex-flow:wrap ;
         justify-content: center;
@@ -104,6 +111,7 @@
         font-weight: 400;
         font-size: map-get($tam-textos, cards);
         margin-bottom: 0;
+        width: 80%;
     }
 
 }

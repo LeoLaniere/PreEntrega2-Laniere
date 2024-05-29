@@ -12,4 +12,20 @@
         background-color: #666666a2;
         border-radius: 1rem;
     }
+    .encabezado__titulo{
+        font-size: map-get($tam-textos, header-sm);
+    }
+}
+@media (min-width: 991px){
+    .banner{
+        &__titulo{
+            font-size: map-get($tam-textos, body-title);
+        }
+        &__sub-titulo{
+            font-size: map-get($tam-textos, body-subtitle);
+        }
+        &__text{
+            font-size: map-get($tam-textos, body-text);
+        }
+    }
 }
